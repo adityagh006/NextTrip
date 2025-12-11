@@ -1,6 +1,6 @@
-# 🏨 TripNest – Hotel Booking Platform
+# 🏨 NextTrip – Hotel Booking Platform
 
-**TripNest** is a modern hotel booking web app built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Shadcn UI**. It provides a sleek, responsive interface for searching and browsing hotels, complete with loading states, search filters, and real-time hotel data integration.
+**NextTrip** is a modern hotel booking web app built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Shadcn UI**. It provides a sleek, responsive interface for searching and browsing hotels, complete with loading states, search filters, and real-time hotel data integration.
 
 ## ✨ Features
 
@@ -20,25 +20,27 @@
 
 ## 📂 Project Structure
 ```
-├── app/                 # Next.js app directory (routes, layouts, pages)
-├── components/          # Reusable UI components
-├── data/                # Static/seed data (mock data, configs)
-├── lib/                 # Utility functions & helpers
 ├── public/              # Static assets
-├── typings.ts           # Global TypeScript types
-├── .env.example         # Environment variable template
-├── next.config.js       # Next.js configuration
-├── tailwind.config.js   # Tailwind configuration
-├── tsconfig.json        # TypeScript configuration
-└── README.md
+├── src/                 # Source code directory
+├── .gitignore           # Git ignore rules
+├── README.md            # Project documentation
+├── components.json      # Shadcn UI components configuration
+├── eslint.config.mjs    # ESLint configuration
+├── next.config.ts       # Next.js configuration
+├── package-lock.json    # Dependency lock file
+├── package.json         # Project dependencies and scripts
+├── postcss.config.js    # PostCSS configuration
+├── postcss.config.mjs   # PostCSS configuration (MJS)
+├── tailwind.config.js   # Tailwind CSS configuration
+└── tsconfig.json        # TypeScript configuration
 ```
 
 ## ⚙️ Getting Started
 
 ### 1. **Clone the repository**
 ```bash
-git clone https://github.com/adityagh006/NextTrip.git
-cd tripnest
+git clone https://github.com/adityagh006/nexttrip.git
+cd nexttrip
 ```
 
 ### 2. **Install dependencies**
