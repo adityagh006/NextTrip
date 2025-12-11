@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏨 TripNest – Hotel Booking Platform
 
-## Getting Started
+**TripNest** is a modern hotel booking web app built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Shadcn UI**. It provides a sleek, responsive interface for searching and browsing hotels, complete with loading states, search filters, and real-time hotel data integration.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- ⚡ **Next.js 14 (Server + Client Components)** – optimized rendering for performance
+- 🏨 **Hotel Search & Results Pages** – browse accommodations with real-time data
+- 🎨 **Modern UI/UX** – built using **Shadcn/UI** + **Tailwind CSS**
+- 📱 **Fully Responsive** – works seamlessly on mobile, tablet, and desktop
+- ⏳ **Skeleton Loading States** – smooth UX while fetching data
+- 💻 **TypeScript** – type safety for cleaner, bug-free code
+
+## 🛠 Tech Stack
+
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **UI Library:** Shadcn UI
+- **Styling:** Tailwind CSS
+
+## 📂 Project Structure
+```
+├── app/                 # Next.js app directory (routes, layouts, pages)
+├── components/          # Reusable UI components
+├── data/                # Static/seed data (mock data, configs)
+├── lib/                 # Utility functions & helpers
+├── public/              # Static assets
+├── typings.ts           # Global TypeScript types
+├── .env.example         # Environment variable template
+├── next.config.js       # Next.js configuration
+├── tailwind.config.js   # Tailwind configuration
+├── tsconfig.json        # TypeScript configuration
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. **Clone the repository**
+```bash
+git clone https://github.com/adityagh006/tripnest.git
+cd tripnest
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. **Install dependencies**
+```bash
+npm install
+```
 
-## Learn More
+### 3. **Setup environment variables**
+Create a `.env.local` file and configure it based on `.env.example`.
 
-To learn more about Next.js, take a look at the following resources:
+### 4. **Run the development server**
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Now visit 👉 [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 5. **Build for production**
+```bash
+npm run build
+npm start
+```
 
-## Deploy on Vercel
+## 📜 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the **MIT License**.
